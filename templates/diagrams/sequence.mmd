@@ -1,0 +1,11 @@
+sequenceDiagram
+    participant Client
+    participant Facade
+    participant Core
+    participant Backend
+    Client->>Facade: request()
+    Facade->>Core: dispatch()
+    Core->>Backend: execute()
+    Backend-->>Core: result
+    Core-->>Facade: result
+    Facade-->>Client: response

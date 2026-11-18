@@ -1,0 +1,6 @@
+flowchart TB
+    Client[Client / Application] --> API[Public API]
+    API --> Core[Core Module]
+    Core --> Port[Abstract Interface]
+    Port --> ImplA[Implementation A]
+    Port --> ImplB[Implementation B]

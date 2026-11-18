@@ -1,0 +1,20 @@
+# Build output
+build/
+build-*/
+cmake-build-*/
+out/
+_dist/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
